@@ -1,0 +1,44 @@
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.add-task {
+  margin-bottom: 20px;
+}
+
+.add-task input {
+  width: 70%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.add-task button {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f4f4f4;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.task-list button {
+  background-color: #ff4c4c;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
