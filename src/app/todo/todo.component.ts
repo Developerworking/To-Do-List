@@ -24,4 +24,3 @@ export class TodoComponent {
     this.tasks.splice(index, 1);
   }
 }
-
